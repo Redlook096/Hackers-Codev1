@@ -1,0 +1,38 @@
+                                            Hackers Code Instructions
+SETUP
+       To play Hackers code, do the following to set the game up:
+       1) Type command chmod +x start.sh
+       2) Type following command to install python 3 sudo apt install python3-pip
+       3) Run game with command "./start.sh"
+
+OBJECTIVE
+       The objective of this game is to get a devices IP address and remotely mount the device. From there you want to run some programs to remove 
+       alarms and get the money in the devices bank account transfered to yours
+
+GAMEPLAY
+       Firstly enter your name which can be any name you desire. After that run the "pingser" command to see avalible IP adresses to virtually mount. 
+       Then run command "v/mnt/" to activate virtual mount program. Now, type in an IP Adress from the list that appeared form "pingser" command.
+       You have now virtually mounted another device. You can view all directorys on device with "ls" command. You can change to and directory you 
+       like by running command "cd <directory>" or you can navigate to downloads directory to begin hacking with command "cd Downloads". You firstly
+       need to see what the directory by running command "ls". You will see two files named "get_bank_account.sh" and "silence_alarms.sh". You need
+       to firstly disable alarm or you will fail the hacking process when you run "get_bank_account.sh+", so silence alarms by running the program
+       with the command "./silence_alarms.sh". Now you can run the other program with the command "./get_bank_account". After a bit, you will see
+       that the asset downloads and unpacking has stopped. To see your money bank account at any timee, run command "$money". Now repeat this process.
+       To see where you are at any time run command "pwd".
+       Happy Hacking!
+
+COMMANDS
+       pingser - Shows avalible IP adresses to virtually mount
+       v/mnt/ - Activates virtual mount program to mount another device
+       ls - Shows what is in current directory you are in
+       cd <directory> - changes directory to what you replaced <directory> with
+       $money - shows the balance your bank account
+       ./silence_alarms.sh - silences alarms on device mounted (only works when mounted devie and in Downloads directory)
+       ./get_bank_account.sh - transfers money in device to your account (only works when mounted device and in Downloads directory)    
+       pwd - shows where you are
+       
+CREATORS NOTES
+       This game is a prototype developed my myself Redlook096. This gameplay is meant to simulate a fictional hacking and doesn't contain real hacking
+       techniques or tools. 
+
+- Game Developed by Redlook096 2024
